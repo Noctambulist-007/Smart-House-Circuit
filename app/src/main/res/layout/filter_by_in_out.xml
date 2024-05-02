@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/secondary"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Filter By"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/filterByRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/checkInRadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Check-in"/>
+
+            <RadioButton
+                android:id="@+id/checkOutRadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Check-out"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+  <!--  <Button
+        android:id="@+id/roomBtnFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/primary"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Search"
+        android:textColor="@color/white"
+        app:cornerRadius="10dp" />-->
+</LinearLayout>

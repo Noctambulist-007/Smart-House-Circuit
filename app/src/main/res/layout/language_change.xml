@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/secondary"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_language"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <RadioGroup
+            android:id="@+id/languageRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/englishRadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/english"/>
+
+            <RadioButton
+                android:id="@+id/banglaRadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bangla"/>
+
+            <!-- Add more RadioButtons for other languages as needed -->
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/roomBtnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/primary"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Save"
+        android:textColor="@color/white"
+        app:cornerRadius="10dp" />
+</LinearLayout>

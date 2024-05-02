@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "379734571472",
+    "firebase_url": "https://smartcircuithouse-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "smartcircuithouse",
+    "storage_bucket": "smartcircuithouse.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379734571472:android:485d921d4974d1f098a1d5",
+        "android_client_info": {
+          "package_name": "com.algostack.smartcircuithouse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_qSJ3izIaxX5kTf6RpzCgwE2J8jbgNqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

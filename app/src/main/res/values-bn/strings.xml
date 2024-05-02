@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SCH</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="booked">বুক করা হয়েছে</string>
+    <string name="book_now">বুক করুন</string>
+
+    <string name="bed_type_hint">বিছানার ধরণ</string>
+    <string name="easy_way_to_book_your_room">সহজেই রুম বুক করুন</string>
+    <string name="enjoy_your_time">রহস্যময় কেউ উপভোগ্য করে তুলুন</string>
+    <string name="let_s_go">অগ্রসর হই</string>
+    <string name="let_s_get_started">শুরু করা যাক</string>
+
+    <string name="email">ইমেইল</string>
+    <string name="password">পাসওয়ার্ড</string>
+    <string name="log_in">লগ ইন</string>
+    <string name="smart_circuit_house">স্মার্ট সার্কিট হাউজ</string>
+    <string name="total_items">মোট আইটেম:</string>
+    <string name="profile">প্রোফাইল</string>
+    <string name="sync_data">ডেটা সিঙ্ক করুন</string>
+    <string name="backup">ব্যাকআপ</string>
+    <string name="about">আমাদের সম্পর্কে</string>
+    <string name="change_language">ভাষা পরিবর্তন করুন</string>
+    <string name="room_no">কক্ষ নং</string>
+    <string name="floor_no">ফ্লোর নং</string>
+    <string name="bed_type">বিছানার ধরণ</string>
+    <string name="save">সংরক্ষণ করুন</string>
+    <string name="building_name">বিল্ডিং এর নাম</string>
+    <string name="c_name">কাস্টমার. নাম</string>
+    <string name="c_details">কাস্টমার. বিবরণী</string>
+    <string name="check_in">চেক ইন</string>
+    <string name="check_out">চেক আউট</string>
+    <string name="owned_by">Owned By</string>
+    <string name="title">Title</string>
+    <string name="room_no_">কক্ষ নং:</string>
+    <string name="floor_no_">ফ্লোর নং:</string>
+    <string name="bed_type_">বিছানার ধরণ:</string>
+    <string name="select_language">ভাষা নির্বাচন করুন</string>
+    <string name="english">English</string>
+    <string name="bangla">বাংলা</string>
+    <string name="add_team_member">টিম মেম্বার সংযুক্ত করুন</string>
+    <string name="log_out">লগ আউট</string>
+
+    <string name="version">ভার্শন 1.0</string>
+    <string name="developed_by">Developed by</string>
+    <string name="AlgoStackBD">AlgoStack-BD</string>
+    <string name="powered_by">Powered by</string>
+    <string name="rangpur_dc_office">জেলা প্রশাসকের কার্যালয়, রংপুর</string>
+    <string name="account_in">একাউন্টের তথ্য</string>
+    <string name="Settings" >সেটিংস</string>
+
+
+
+    <string-array name="bed_types">
+        <item>সিঙ্গেল</item>
+        <item>ডাবল</item>
+    </string-array>
+
+</resources>

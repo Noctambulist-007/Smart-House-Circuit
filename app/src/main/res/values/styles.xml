@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ToolbarTitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="DatePickerDialogStyle" parent="ThemeOverlay.AppCompat.Dialog">
+        <item name="colorAccent">@color/primary</item>
+    </style>
+
+
+</resources>

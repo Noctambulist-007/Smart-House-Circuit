@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondary"
+    tools:context=".features.room_screen.RoomScreen">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayoutRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarBuildingName"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/primary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:subtitleTextColor="@android:color/white"
+            app:titleMargin="10dp"
+            app:titleTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            app:titleTextColor="@android:color/white" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/textViewNoItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="No items, please create a room"
+        android:textColor="@color/primary"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/textViewTotalRoomItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/curved_shape"
+        android:fontFamily="@font/poppins_regular"
+        android:padding="8dp"
+        android:gravity="end"
+        android:text="@string/total_items"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:layout_below="@id/appBarLayoutRoom"
+        android:layout_alignParentEnd="true" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/allRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/textViewTotalRoomItems"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/bedroom"
+        app:backgroundTint="@color/primary"
+        app:tint="@android:color/white" />
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/roomProgressBar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:visibility="visible"
+        app:indicatorColor="@color/primary"
+        app:trackCornerRadius="10dp" />
+
+</RelativeLayout>

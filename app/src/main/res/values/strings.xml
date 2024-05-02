@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">SCH</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="booked">Booked</string>
+    <string name="book_now">Book Now</string>
+
+    <string name="bed_type_hint">Bed Type</string>
+    <string name="easy_way_to_book_your_room">Easy way to book your room</string>
+    <string name="enjoy_your_time">Enjoy your time</string>
+    <string name="let_s_go">Let\'s Go</string>
+    <string name="let_s_get_started">Let\'s Get Started</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="smart_circuit_house">Smart Circuit House</string>
+    <string name="total_items">Total items:</string>
+    <string name="profile">Profile</string>
+    <string name="sync_data">Sync</string>
+    <string name="backup">Backup</string>
+    <string name="about">About</string>
+    <string name="change_language">Language</string>
+    <string name="room_no">Room No</string>
+    <string name="floor_no">Floor No</string>
+    <string name="bed_type">Bed Type</string>
+    <string name="save">Save</string>
+    <string name="building_name">Building Name</string>
+    <string name="c_name">C. Name</string>
+    <string name="c_details">C. Details</string>
+    <string name="check_in">Check-in</string>
+    <string name="check_out">Check-out</string>
+    <string name="owned_by">Owned By</string>
+    <string name="title">Title</string>
+    <string name="room_no_">Room No:</string>
+    <string name="floor_no_">Floor No:</string>
+    <string name="bed_type_">Bed Type:</string>
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="bangla">Bangla</string>
+    <string name="add_team_member">Team</string>
+    <string name="log_out">Log Out</string>
+    <string name="version">Version 1.0</string>
+    <string name="developed_by">Developed by</string>
+    <string name="AlgoStackBD">AlgoStack-BD</string>
+    <string name="powered_by">Powered by</string>
+    <string name="rangpur_dc_office">District government office in Rangpur </string>
+    <string name="account_in">Account Information</string>
+    <string name="Settings" >Settings</string>
+
+
+    <string-array name="bed_types">
+        <item>Single</item>
+        <item>Double</item>
+    </string-array>
+
+</resources>

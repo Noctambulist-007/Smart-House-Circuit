@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/secondary"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutCustomerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextCustomerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/c_name"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutCustomerDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextCustomerDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="C. Details"
+            android:inputType="textMultiLine"
+            android:maxLines="3" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutEnterDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextEnterDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:hint="@string/check_in"
+                android:onClick="showEnterDatePicker" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutExitDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextExitDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:hint="@string/check_out"
+                android:onClick="showExitDatePicker" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonBookNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/primary"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/book_now"
+        android:textColor="@color/white"
+        app:cornerRadius="10dp" />
+</LinearLayout>
